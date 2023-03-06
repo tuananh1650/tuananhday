@@ -1,0 +1,15 @@
+package ltcb;
+
+import java.util.Scanner;
+
+public class project_02 {
+	public static void main(String[] args) {
+		Scanner nhap = new Scanner(System.in);
+		System.out.println("Nhap vao mot so nguyen a: ");
+		int a = nhap.nextInt();
+		if (a % 2 != 0)
+			System.out.println("a la so le");
+		else
+			System.out.println("a la so chan");
+	}
+}
