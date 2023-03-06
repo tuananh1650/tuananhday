@@ -1,0 +1,23 @@
+package ltcb;
+
+import java.util.Scanner;
+
+public class bt1 {
+
+	public static void main(String[] args) {
+		Scanner nhap = new Scanner(System.in);
+		int a, b;
+		System.out.println("Nhap so a: ");
+		a = nhap.nextInt();
+		System.out.println("Nhap so b: ");
+		b = nhap.nextInt();
+		int tong = a + b;
+		System.out.println(a + "+" + b + " = " + tong);
+		int hieu = a - b;
+		System.out.println(a + "+" + b + "=" + hieu);
+		int tich = a * b;
+		System.out.println(a + "*" + b + "=" + tich);
+		float thuong = (float) a / b;
+		System.out.println(a + "/" + b + "=" + thuong);
+	}
+}
