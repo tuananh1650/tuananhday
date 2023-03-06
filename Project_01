@@ -19,5 +19,7 @@ public class bt1 {
 		System.out.println(a + "*" + b + "=" + tich);
 		float thuong = (float) a / b;
 		System.out.println(a + "/" + b + "=" + thuong);
+		int soDu = a % b;
+		System.out.println(a + "%" + b + "=" + soDu);
 	}
 }
