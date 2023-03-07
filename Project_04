@@ -1,0 +1,21 @@
+package ltcb;
+
+import java.util.Scanner;
+
+public class Project_04 {
+
+	public static void main(String[] args) {
+		int thisYear = 2023;
+		Scanner nhap = new Scanner (System.in);
+		System.out.println("nhap ten: ");
+		String ten = nhap.nextLine();
+		System.out.println("nhap nam sinh: ");
+		int namSinh = nhap.nextInt();
+		if((thisYear - namSinh) < 16)
+			System.out.println(ten +" " + "dang o do tuoi vi thanh nien" );
+		else if((thisYear - namSinh) >= 16 && (thisYear - namSinh) < 18)
+			System.out.println(ten + " dang o do tuoi truong thanh");
+		else
+			System.out.println(ten + " da gia");
+	}
+}
